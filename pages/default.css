@@ -1,30 +1,9 @@
-﻿h1{
-	background-color: #66FF33;
-	color:white;
-	}
-body {
+﻿body {
   min-width: 550px;      /* 2x LC width + RC width */
 }
-a {
-	
-	text-decoration:none
-}
-a:link {
-    color:navy;
-}
-
-/* mouse over link */
-a:hover {
-    color: red;
-}
-/* selected link */
-a:active {
-    color:blue;
-}
-
 #container {
-  padding-left: 200px;   /* LC width */
-  padding-right: 150px;  /* RC width */
+  padding-left: 300px;   /* LC width */
+  padding-right: 300px;  /* RC width */
 }
 #container .column {
   position: relative;
@@ -34,16 +13,17 @@ a:active {
   width: 100%;
 }
 #left {
-position: relative;
-  width: 200px;          /* LC width */
-  right: 200px;          /* LC width */
+  width: 300px;          /* LC width */
+
+  right: 300px;          /* LC width */
   margin-left: -100%;
   background-color:aqua
 }
 #right {
-  width: 150px;          /* RC width */
-  margin-right: -150px;  /* RC width */
-  background-color:aqua;
+  width: 300px;   
+     /* RC width */
+  margin-right: -3000px;  /* RC width */
+  background-color:aqua
 }
 #footer {
   clear: both;
