@@ -32,3 +32,22 @@
 * html #left {
   left: 150px;           /* RC width */
 }
+
+
+
+a {
+	
+	text-decoration:none
+}
+a:link {
+    color:navy;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+/* selected link */
+a:active {
+    color:blue;
+}
