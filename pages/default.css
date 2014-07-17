@@ -33,7 +33,25 @@
   left: 150px;           /* RC width */
 }
 
+.profilePic{
+	width:55px;
+	height:55px;
+}
 
+nav a{
+padding-left:15px;
+padding-right:15px;
+color:white;
+}
+#header{
+	background-color:lime;
+	text-align:center;
+	
+	
+}
+.current{
+background-color:blue
+}
 
 a {
 	
