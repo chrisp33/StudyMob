@@ -1,12 +1,39 @@
+<<<<<<< HEAD
 ﻿
 body {
 	margin:0px;foo
     min-width: 550px;
+=======
+﻿body {
+  min-width: 550px;      /* 2x LC width + RC width */
+>>>>>>> 887b94a6f0f2c32fd367078e6281deab000d605c
 }
+a {
+	
+	text-decoration:none
+}
+a:link {
+    color:navy;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+/* selected link */
+a:active {
+    color:blue;
+}
+
 #container {
+<<<<<<< HEAD
     min-height: 1000px;
     padding-left: 300px;
     padding-right: 300px;
+=======
+  padding-left: 300px;   /* LC width */
+  padding-right: 300px;  /* RC width */
+>>>>>>> 887b94a6f0f2c32fd367078e6281deab000d605c
 }
 #container .column {
     float: left;
@@ -17,6 +44,7 @@ body {
     width: 100%;
 }
 #left {
+<<<<<<< HEAD
     background-color: aqua;
     margin-left: -100%;
     min-height: 1000px;
@@ -27,12 +55,25 @@ body {
     background-color: aqua;
     margin-right: -3000px;
     width: 300px;
+=======
+  width: 300px;          /* LC width */
+
+  right: 300px;          /* LC width */
+  margin-left: -100%;
+  background-color:aqua
+}
+#right {
+  width: 300px;           /* RC width */
+  margin-right: -3000px;  /* RC width */
+  background-color:aqua
+>>>>>>> 887b94a6f0f2c32fd367078e6281deab000d605c
 }
 #footer {
     clear: both;
     background-color:blue;
 }
 * html #left {
+<<<<<<< HEAD
     left: 150px;
 }
 .profilePic {
@@ -65,4 +106,44 @@ a:hover {
 }
 a:active {
     color: blue;
+=======
+  left: 150px;           /* RC width */
+}
+
+.profilePic{
+	width:55px;
+	height:55px;
+}
+
+nav a{
+padding-left:15px;
+padding-right:15px;
+color:white;
+}
+#header{
+	background-color:lime;
+	text-align:center;
+	
+	
+}
+.current{
+background-color:blue
+}
+
+a {
+	
+	text-decoration:none
+}
+a:link {
+    color:navy;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+
+/* selected link */
+a:active {
+    color:blue;
+>>>>>>> 887b94a6f0f2c32fd367078e6281deab000d605c
 }
