@@ -1,71 +1,68 @@
-﻿body {
-  min-width: 550px;      /* 2x LC width + RC width */
+﻿
+body {
+	margin:0px;foo
+    min-width: 550px;
 }
 #container {
-  padding-left: 300px;   /* LC width */
-  padding-right: 300px;  /* RC width */
+    min-height: 1000px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 #container .column {
-  position: relative;
-  float: left;
+    float: left;
+    min-height: 1200px;
+    position: relative;
 }
 #center {
-  width: 100%;
+    width: 100%;
 }
 #left {
-  width: 300px;          /* LC width */
-
-  right: 300px;          /* LC width */
-  margin-left: -100%;
-  background-color:aqua
+    background-color: aqua;
+    margin-left: -100%;
+    min-height: 1000px;
+    right: 300px;
+    width: 300px;
 }
 #right {
-  width: 300px;   
-     /* RC width */
-  margin-right: -3000px;  /* RC width */
-  background-color:aqua
+    background-color: aqua;
+    margin-right: -3000px;
+    width: 300px;
 }
 #footer {
-  clear: both;
+    clear: both;
+    background-color:blue;
 }
-/*** IE6 Fix ***/
 * html #left {
-  left: 150px;           /* RC width */
+    left: 150px;
 }
-
-.profilePic{
-	width:55px;
-	height:55px;
+.profilePic {
+    height: 55px;
+    width: 55px;
 }
-
-nav a{
-padding-left:15px;
-padding-right:15px;
-color:white;
+nav a {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-#header{
-	background-color:lime;
-	text-align:center;
-	
-	
+#header {
+    background-color: lime;
+    font-family: Lucida Grande;
+    font-size: 40px;
+    text-align: center;
+    
+    }
+.current {
+    background-color: blue;
 }
-.current{
-background-color:blue
-}
-
 a {
-	
-	text-decoration:none
+    text-decoration: none;
 }
 a:link {
-    color:navy;
+    color: navy;
 }
-
-/* mouse over link */
 a:hover {
     color: red;
 }
-/* selected link */
 a:active {
-    color:blue;
+    color: blue;
 }
